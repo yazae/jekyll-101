@@ -1,0 +1,6 @@
+- name: Acceuil
+  link: /
+  # title: Page principale
+- name: À propos
+  link: /about.html
+  # title: À propos de ce site

@@ -1,0 +1,34 @@
+I"m<h2 id="liquid">Liquid</h2>
+<h3 id="objects">Objects</h3>
+
+<p>Objects tell liquid to output predefined variables as content
+<code class="language-plaintext highlighter-rouge">Home | Yazae.</code> displays the <code class="language-plaintext highlighter-rouge">page.title</code> variable.</p>
+
+<h3 id="tags">Tags</h3>
+
+<p>Tags define the logic and control flow for templates.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+<p>This displays the sidebar if the value of the <code class="language-plaintext highlighter-rouge">show_sidebar</code> page variable is true.</p>
+
+<h3 id="filters">Filters</h3>
+
+<p>Filters change the output of a Liquid object. They are used within an output and are separated by a <code class="language-plaintext highlighter-rouge">|</code>.
+For example:
+<code class="language-plaintext highlighter-rouge">Hi</code>
+ce texte sera en minuscule</p>
+
+<p>This displays Hi instead of hi.</p>
+
+<h2 id="front-matter">Front matter</h2>
+
+<p>You can use front matter to set variables for the page:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+# insert this at the top of the page
+my_number: 5
+---
+</code></pre></div></div>
+
+<p>and <code class="language-plaintext highlighter-rouge">5</code> in the page :<br />
+5</p>
+:ET
