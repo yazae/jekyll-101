@@ -4,3 +4,7 @@
 - name: À propos
   link: /about.html
   # title: À propos de ce site
+- name: blog
+  link: /blog.html
+- name: Staff
+  link: /staff.html

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: À propos | Yazae.
 ---
 # About page
 
